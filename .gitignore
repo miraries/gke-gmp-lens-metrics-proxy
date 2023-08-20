@@ -1,0 +1,13 @@
+.env
+.idea
+.vscode
+.DS_Store
+node_modules
+coverage
+npm-debug.log
+test-results
+dist
+test
+.scannerwork
+.stryker-tmp
+stryker-tmp

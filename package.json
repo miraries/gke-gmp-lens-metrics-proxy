@@ -1,0 +1,27 @@
+{
+  "name": "gpm-lens-proxy-uws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ivan Kotlaja",
+  "dependencies": {
+    "@fastify/multipart": "^7.7.3",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.21.0",
+    "google-auth-library": "^9.0.0",
+    "pino": "^8.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
